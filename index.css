@@ -1,0 +1,109 @@
+body{
+    z-index: 1;
+    font-family: sans-serif;
+    background-color: transparent;
+}
+
+#BG{
+    position:absolute;
+    left:0%;
+    top:0%;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    filter: blur(3px);
+}
+
+table{
+    background-color: Black;
+    color: white;
+    position: absolute;
+    left: 15%;
+    right: 85%;
+    top: 0%;
+    width: 70%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding:10px;
+}
+
+
+
+#logo{
+    width: 100px;
+    padding-left: 30px;
+    padding-right: 5px;
+    filter: grayscale();
+}
+
+a.text-link{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+a.text-link:hover{
+    font-size: 25px;
+    background-color: white;
+    color: black;
+}
+
+.contents{
+    width: 80%;
+    position:absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 2px Black;
+    
+}/*
+.contents h1{
+    text-shadow: 3px 3px 3px white;
+}*/
+
+.button{
+    width: 20%;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    text-align: center;
+    text-decoration: None;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+    box-shadow: 0px 0px 5px white;
+}
+
+.social{
+    width: 40px;
+    position: absolute;
+    top: 75%;
+    left:2%;
+    right:auto;
+}
+
+.social a img{
+    padding: 10px; 
+    width: 40px;
+    height: 40px;
+}
+
+.mouse-scroll{
+    position: absolute;
+    width: 40px;
+    left:48%;
+    right:50%;
+    top:85%;
+
+}
+.mouse-scroll img{
+    width: 40px;
+}
